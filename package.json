@@ -1,6 +1,6 @@
 {
   "name": "apate",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "CPU Visualisation based on a RISC-V ISA",
   "author": {
     "name": "Michael Gafert",
@@ -103,6 +103,7 @@
     "ngx-virtual-scroller": "4.0.3",
     "npm-scripts-info": "0.3.9",
     "popmotion": "9.0.2",
+    "prismjs": "1.23.0",
     "spark-md5": "3.0.1",
     "stylefire": "7.0.3",
     "tar-fs": "2.1.1",

@@ -4,6 +4,7 @@
 @import "style/material";
 @import "style/tippy";
 @import "style/inline-boxes";
+@import "style/prism";
 
 // Normalize
 
@@ -21,8 +22,8 @@ hr {
   border-bottom: 1px solid #00000029;
 }
 
-// Disable scrollbar
-*::-webkit-scrollbar {
+// Default disable scrollbar, if scrollbars are used @include scrollbars from import.scss
+::-webkit-scrollbar {
   display: none; /* Safari and Chrome */
 }
 
@@ -170,3 +171,15 @@ button {
     top: $tabsHeight;
   }
 }
+
+a {
+  display: inline-block;
+  color: lighten($accent, 10%);
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  &:hover {
+    color: lighten($accent, 20%);
+  }
+}
+
